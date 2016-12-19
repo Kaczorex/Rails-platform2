@@ -1,0 +1,28 @@
+<h1>Test#Witaj</h1>
+<p>Find me in app/views/test/index.html.erb</p>
+
+<p>Witaj</p>
+
+<% suma = 2+2 %>
+
+Suma = <%= suma %>
+
+<% imie = "tomek" %>
+
+<%= "witaj #{imie} w kursie ruby" %>
+
+<p>
+    
+   <%= "parametr id =" + params[:id] %>
+    <br/>
+    strona <%= params[:strona]  %>
+    <br/>
+        strona <%= params[:strona].to_i + 1  %>
+    
+</p>
+
+<p>
+    
+    <%= link_to('Popwrot do nawigacji', {:action=>'nawigacja'})  %>
+    
+</p>

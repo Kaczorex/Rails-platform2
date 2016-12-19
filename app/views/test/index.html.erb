@@ -1,0 +1,26 @@
+<h1>Test#index</h1>
+<p>Find me in app/views/test/index.html.erb</p>
+<%= @testowa %>
+
+
+<br/>
+
+<br/>
+<% @ksywy.each do |ksywy| %>
+<%= "simeasz #{ksywy.capitalize} w kursie! " %>
+<hr>
+<br/>
+<%end %>
+
+
+<p>
+    
+    parametr ID = <%= @id + 10%>
+    
+</p>
+
+<p> 
+    
+    <%= params.inspect %>
+    
+</p>

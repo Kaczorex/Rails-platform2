@@ -1,0 +1,18 @@
+<p>
+    
+    <a href="witaj">link strony witaj </a>
+    
+</p>
+
+<p>
+    
+    <%= link_to('Link do strony z RoR', {:action=>'witaj',:id=>2,:strona =>3},data: { confirm: 'Are you sure?' })  %>
+    <%= link_to 'Link 2 sposobem', test_witaj_path %>
+</p>
+
+
+<p>
+    
+    <%= link_to('Link do strony z index RoR', {:action=>'index',:id=>4,:strona =>9})  %>
+
+</p>
